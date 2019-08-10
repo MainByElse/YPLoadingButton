@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF2282AC22FD0C87004FF533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282AB22FD0C87004FF533 /* AppDelegate.m */; };
+		DF2282AF22FD0C87004FF533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282AE22FD0C87004FF533 /* ViewController.m */; };
+		DF2282B222FD0C87004FF533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2282B022FD0C87004FF533 /* Main.storyboard */; };
+		DF2282B422FD0C88004FF533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2282B322FD0C88004FF533 /* Assets.xcassets */; };
+		DF2282B722FD0C88004FF533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2282B522FD0C88004FF533 /* LaunchScreen.storyboard */; };
+		DF2282BA22FD0C88004FF533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282B922FD0C88004FF533 /* main.m */; };
+		DF2282C422FD0C88004FF533 /* YPLoadingButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282C322FD0C88004FF533 /* YPLoadingButtonTests.m */; };
+		DF2282CF22FD0C88004FF533 /* YPLoadingButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282CE22FD0C88004FF533 /* YPLoadingButtonUITests.m */; };
+		DF2282DF22FD0CAF004FF533 /* YPLoadingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2282DE22FD0CAF004FF533 /* YPLoadingButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF2282C022FD0C88004FF533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF22829F22FD0C87004FF533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2282A622FD0C87004FF533;
+			remoteInfo = YPLoadingButton;
+		};
+		DF2282CB22FD0C88004FF533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF22829F22FD0C87004FF533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2282A622FD0C87004FF533;
+			remoteInfo = YPLoadingButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF2282A722FD0C87004FF533 /* YPLoadingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPLoadingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2282AA22FD0C87004FF533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF2282AB22FD0C87004FF533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF2282AD22FD0C87004FF533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF2282AE22FD0C87004FF533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF2282B122FD0C87004FF533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2282B322FD0C88004FF533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2282B622FD0C88004FF533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2282B822FD0C88004FF533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2282B922FD0C88004FF533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF2282BF22FD0C88004FF533 /* YPLoadingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPLoadingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2282C322FD0C88004FF533 /* YPLoadingButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLoadingButtonTests.m; sourceTree = "<group>"; };
+		DF2282C522FD0C88004FF533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2282CA22FD0C88004FF533 /* YPLoadingButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPLoadingButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2282CE22FD0C88004FF533 /* YPLoadingButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPLoadingButtonUITests.m; sourceTree = "<group>"; };
+		DF2282D022FD0C88004FF533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2282DD22FD0CAF004FF533 /* YPLoadingButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPLoadingButtonView.h; sourceTree = "<group>"; };
+		DF2282DE22FD0CAF004FF533 /* YPLoadingButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPLoadingButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2282A422FD0C87004FF533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282BC22FD0C88004FF533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282C722FD0C88004FF533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF22829E22FD0C87004FF533 = {
+			isa = PBXGroup;
+			children = (
+				DF2282A922FD0C87004FF533 /* YPLoadingButton */,
+				DF2282C222FD0C88004FF533 /* YPLoadingButtonTests */,
+				DF2282CD22FD0C88004FF533 /* YPLoadingButtonUITests */,
+				DF2282A822FD0C87004FF533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2282A822FD0C87004FF533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2282A722FD0C87004FF533 /* YPLoadingButton.app */,
+				DF2282BF22FD0C88004FF533 /* YPLoadingButtonTests.xctest */,
+				DF2282CA22FD0C88004FF533 /* YPLoadingButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2282A922FD0C87004FF533 /* YPLoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				DF2282DC22FD0CAF004FF533 /* YPLoadingButtonView */,
+				DF2282AA22FD0C87004FF533 /* AppDelegate.h */,
+				DF2282AB22FD0C87004FF533 /* AppDelegate.m */,
+				DF2282AD22FD0C87004FF533 /* ViewController.h */,
+				DF2282AE22FD0C87004FF533 /* ViewController.m */,
+				DF2282B022FD0C87004FF533 /* Main.storyboard */,
+				DF2282B322FD0C88004FF533 /* Assets.xcassets */,
+				DF2282B522FD0C88004FF533 /* LaunchScreen.storyboard */,
+				DF2282B822FD0C88004FF533 /* Info.plist */,
+				DF2282B922FD0C88004FF533 /* main.m */,
+			);
+			path = YPLoadingButton;
+			sourceTree = "<group>";
+		};
+		DF2282C222FD0C88004FF533 /* YPLoadingButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2282C322FD0C88004FF533 /* YPLoadingButtonTests.m */,
+				DF2282C522FD0C88004FF533 /* Info.plist */,
+			);
+			path = YPLoadingButtonTests;
+			sourceTree = "<group>";
+		};
+		DF2282CD22FD0C88004FF533 /* YPLoadingButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2282CE22FD0C88004FF533 /* YPLoadingButtonUITests.m */,
+				DF2282D022FD0C88004FF533 /* Info.plist */,
+			);
+			path = YPLoadingButtonUITests;
+			sourceTree = "<group>";
+		};
+		DF2282DC22FD0CAF004FF533 /* YPLoadingButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				DF2282DD22FD0CAF004FF533 /* YPLoadingButtonView.h */,
+				DF2282DE22FD0CAF004FF533 /* YPLoadingButtonView.m */,
+			);
+			path = YPLoadingButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2282A622FD0C87004FF533 /* YPLoadingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2282D322FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButton" */;
+			buildPhases = (
+				DF2282A322FD0C87004FF533 /* Sources */,
+				DF2282A422FD0C87004FF533 /* Frameworks */,
+				DF2282A522FD0C87004FF533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPLoadingButton;
+			productName = YPLoadingButton;
+			productReference = DF2282A722FD0C87004FF533 /* YPLoadingButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF2282BE22FD0C88004FF533 /* YPLoadingButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2282D622FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButtonTests" */;
+			buildPhases = (
+				DF2282BB22FD0C88004FF533 /* Sources */,
+				DF2282BC22FD0C88004FF533 /* Frameworks */,
+				DF2282BD22FD0C88004FF533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2282C122FD0C88004FF533 /* PBXTargetDependency */,
+			);
+			name = YPLoadingButtonTests;
+			productName = YPLoadingButtonTests;
+			productReference = DF2282BF22FD0C88004FF533 /* YPLoadingButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF2282C922FD0C88004FF533 /* YPLoadingButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2282D922FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButtonUITests" */;
+			buildPhases = (
+				DF2282C622FD0C88004FF533 /* Sources */,
+				DF2282C722FD0C88004FF533 /* Frameworks */,
+				DF2282C822FD0C88004FF533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2282CC22FD0C88004FF533 /* PBXTargetDependency */,
+			);
+			name = YPLoadingButtonUITests;
+			productName = YPLoadingButtonUITests;
+			productReference = DF2282CA22FD0C88004FF533 /* YPLoadingButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF22829F22FD0C87004FF533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = YanpengLee;
+				TargetAttributes = {
+					DF2282A622FD0C87004FF533 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DF2282BE22FD0C88004FF533 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DF2282A622FD0C87004FF533;
+					};
+					DF2282C922FD0C88004FF533 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DF2282A622FD0C87004FF533;
+					};
+				};
+			};
+			buildConfigurationList = DF2282A222FD0C87004FF533 /* Build configuration list for PBXProject "YPLoadingButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF22829E22FD0C87004FF533;
+			productRefGroup = DF2282A822FD0C87004FF533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2282A622FD0C87004FF533 /* YPLoadingButton */,
+				DF2282BE22FD0C88004FF533 /* YPLoadingButtonTests */,
+				DF2282C922FD0C88004FF533 /* YPLoadingButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF2282A522FD0C87004FF533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2282B722FD0C88004FF533 /* LaunchScreen.storyboard in Resources */,
+				DF2282B422FD0C88004FF533 /* Assets.xcassets in Resources */,
+				DF2282B222FD0C87004FF533 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282BD22FD0C88004FF533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282C822FD0C88004FF533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2282A322FD0C87004FF533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2282AF22FD0C87004FF533 /* ViewController.m in Sources */,
+				DF2282BA22FD0C88004FF533 /* main.m in Sources */,
+				DF2282DF22FD0CAF004FF533 /* YPLoadingButtonView.m in Sources */,
+				DF2282AC22FD0C87004FF533 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282BB22FD0C88004FF533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2282C422FD0C88004FF533 /* YPLoadingButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2282C622FD0C88004FF533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2282CF22FD0C88004FF533 /* YPLoadingButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF2282C122FD0C88004FF533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2282A622FD0C87004FF533 /* YPLoadingButton */;
+			targetProxy = DF2282C022FD0C88004FF533 /* PBXContainerItemProxy */;
+		};
+		DF2282CC22FD0C88004FF533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2282A622FD0C87004FF533 /* YPLoadingButton */;
+			targetProxy = DF2282CB22FD0C88004FF533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF2282B022FD0C87004FF533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2282B122FD0C87004FF533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2282B522FD0C88004FF533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2282B622FD0C88004FF533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF2282D122FD0C88004FF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF2282D222FD0C88004FF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF2282D422FD0C88004FF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5AK8HPRL;
+				INFOPLIST_FILE = YPLoadingButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF2282D522FD0C88004FF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A5AK8HPRL;
+				INFOPLIST_FILE = YPLoadingButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF2282D722FD0C88004FF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPLoadingButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPLoadingButton.app/YPLoadingButton";
+			};
+			name = Debug;
+		};
+		DF2282D822FD0C88004FF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPLoadingButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPLoadingButton.app/YPLoadingButton";
+			};
+			name = Release;
+		};
+		DF2282DA22FD0C88004FF533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPLoadingButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPLoadingButton;
+			};
+			name = Debug;
+		};
+		DF2282DB22FD0C88004FF533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YPLoadingButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.YanpengLee.YPLoadingButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YPLoadingButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2282A222FD0C87004FF533 /* Build configuration list for PBXProject "YPLoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2282D122FD0C88004FF533 /* Debug */,
+				DF2282D222FD0C88004FF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2282D322FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2282D422FD0C88004FF533 /* Debug */,
+				DF2282D522FD0C88004FF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2282D622FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2282D722FD0C88004FF533 /* Debug */,
+				DF2282D822FD0C88004FF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2282D922FD0C88004FF533 /* Build configuration list for PBXNativeTarget "YPLoadingButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2282DA22FD0C88004FF533 /* Debug */,
+				DF2282DB22FD0C88004FF533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF22829F22FD0C87004FF533 /* Project object */;
+}
